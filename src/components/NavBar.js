@@ -8,16 +8,16 @@ import {
 } from '@material-tailwind/react';
 
 function NavBar() {
-	const [openNav, setOpenNav] = useState(false);
+  const [openNav, setOpenNav] = useState(false);
 
-	useEffect(() => {
+  useEffect(() => {
     window.addEventListener(
-      "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false)
+      'resize',
+      () => window.innerWidth >= 960 && setOpenNav(false),
     );
   }, []);
 
-	const navList = (
+  const navList = (
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       <Typography
         as="li"
@@ -25,7 +25,7 @@ function NavBar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#home" className="flex items-center">
           Pages
         </a>
       </Typography>
@@ -35,7 +35,7 @@ function NavBar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#About" className="flex items-center">
           Account
         </a>
       </Typography>
@@ -45,7 +45,7 @@ function NavBar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#contact" className="flex items-center">
           Blocks
         </a>
       </Typography>
@@ -55,15 +55,15 @@ function NavBar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#getinvolved" className="flex items-center">
           Docs
         </a>
       </Typography>
     </ul>
   );
 
-	return (
-		<Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
+  return (
+    <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
@@ -122,7 +122,7 @@ function NavBar() {
         </Button>
       </MobileNav>
     </Navbar>
-	)
+  );
 }
 
 export default NavBar;

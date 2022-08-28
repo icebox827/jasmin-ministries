@@ -1,12 +1,10 @@
 import '../styles/App.css';
-import Home from '../containers/Home';
+import RoutesLink from './Routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Home />
-      </header>
+    <div>
+      <RoutesLink />
     </div>
   );
 }
