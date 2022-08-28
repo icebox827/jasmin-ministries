@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <span className="copyright">
         &copy;
-        {` ${(new Date()).getFullYear()} All rights reserved | Built with love by ` }
+        {` ${(new Date()).getFullYear()} All rights reserved | Built with love by   ` }
         <a href="https://denislafontant.com" target="_blank" rel="noopener noreferrer">Denis Lafontant</a>
       </span>
     </footer>

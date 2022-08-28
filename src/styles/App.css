@@ -12,3 +12,20 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+footer {
+  height: 5vh;
+  background-color: black;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 0.5rem;
+}
