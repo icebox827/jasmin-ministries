@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+Photo by Luis Quintero: https://www.pexels.com/photo/women-wearing-brown-dress-close-up-photography-2774546/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
