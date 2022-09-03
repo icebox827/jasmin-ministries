@@ -33,6 +33,17 @@
   font-weight: 700;
 }
 
+.image {
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.credits {
+  font-weight: 600;
+  color: blue;
+}
+
 footer {
   height: 5vh;
   background-color: rgb(26, 25, 43);
