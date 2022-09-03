@@ -9,7 +9,6 @@ const navigation = [
   { name: 'About', href: '#', current: false },
   { name: 'Get involved', href: '#', current: false },
   { name: 'Donate', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
 ];
 
 function classNames(...classes) {
