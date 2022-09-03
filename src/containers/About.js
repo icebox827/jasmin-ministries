@@ -2,11 +2,13 @@
 /* eslint-disable import/no-named-as-default-member */
 import React from 'react';
 import Ministries from '../components/Ministries';
+import Mission from '../components/Mission';
 
 function About() {
   return (
-    <div className="container">
+    <div className="container mx-auto">
       <Ministries />
+      <Mission />
     </div>
   );
 }

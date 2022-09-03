@@ -15,8 +15,8 @@ function Ministries() {
           />
         </div>
         <div className="w-1/2 mt-5">
-          <h1 className="text-center mt-5 sub-title">Pastor leads multilingual worship</h1>
-          <h5>
+          <h2 className="text-center mt-5 sub-title">Pastor leads multilingual worship</h2>
+          <h5 className="text-justify pr-5">
             Luc Jasmin started the multilingual, multicultural Jasmin Evangelical Ministries/Eglise
             Evangelique Maranatha in 2019, gathering English, French, Swahili and Creole speakers
             for worship and to minister to needs of the Haitian and African refugee community in
