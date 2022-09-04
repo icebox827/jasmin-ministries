@@ -6,7 +6,7 @@ function Activities() {
   return (
     <div className="container">
       <h1 className="text-center mt-5 title">Get involved</h1>
-      <div className="flex justify-center mb-4">
+      <div className="flex justify-center mb-4 hover:flex">
         <div className="w-1/2 mt-5">
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
             <img className="w-full h-auto" src={Music} alt="Sunset in the mountains" />
