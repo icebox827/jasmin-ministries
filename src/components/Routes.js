@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Home from '../containers/Home';
 import About from '../containers/About';
+import Involved from '../containers/Involved';
 import Footer from './Footer';
 
 function RoutesLink() {
@@ -12,6 +13,7 @@ function RoutesLink() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/involved" element={<Involved />} />
       </Routes>
       <Footer />
     </Router>
