@@ -3,10 +3,15 @@ import Video from './Videoframe';
 
 function Volunteer() {
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mt-5">
       <h2 className="text-center mt-5 sub-title">Thank you for your support</h2>
       <br />
       <Video />
+      <br />
+      <br />
+      <h3 className="text-center">
+        Please contact us to get involved or support our activities
+      </h3>
       <br />
       <br />
       <h3 className="text-center mb-4">

@@ -51,6 +51,11 @@
   color: blue;
 }
 
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .video-container {
   display: flex;
   justify-content: center;
