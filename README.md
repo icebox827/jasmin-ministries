@@ -3,6 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 [Photo by Luis Quintero:](https://www.pexels.com/photo/group-of-people-in-stadium-3612706/)
 Photo by Pixabay: https://www.pexels.com/photo/cash-dollars-hands-money-271168/
+
 ## Available Scripts
 
 In the project directory, you can run:
