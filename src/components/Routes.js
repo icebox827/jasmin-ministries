@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import Home from '../containers/Home';
 import About from '../containers/About';
 import Involved from '../containers/Involved';
+import Donate from '../containers/Donate';
 import Footer from './Footer';
 
 function RoutesLink() {
@@ -14,6 +15,7 @@ function RoutesLink() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/involved" element={<Involved />} />
+        <Route path="/donate" element={<Donate />} />
       </Routes>
       <Footer />
     </Router>
