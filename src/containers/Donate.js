@@ -4,7 +4,9 @@ import Donation from '../components/Donation';
 function Donate() {
   return (
     <div className="container mx-auto">
-      <Donation />
+      <div className="donation">
+        <Donation />
+      </div>
     </div>
   );
 }
