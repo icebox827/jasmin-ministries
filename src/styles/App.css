@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/church-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.worship {
+  width: 100%;
+  height: auto;
+}
+
+.services {
+  width: 100%;
+  height: 67.5vh;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.sub-title {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.image {
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-1 {
+  width: 80%;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.credits {
+  font-weight: 600;
+  color: blue;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  height: 5vh;
+  background-color: rgb(26, 25, 43);
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 0.5rem;
+}
