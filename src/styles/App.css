@@ -102,6 +102,10 @@ footer a {
     display: none;
   }
 
+  .cult {
+    display: block;
+  }
+  
   .title {
     font-size: x-large;
     font-weight: 900;
@@ -156,6 +160,10 @@ footer a {
     text-align: center;
   }
 
+  .cult {
+    display: block;
+  }
+  
   .donation {
     width: 100%;
     height: auto;
