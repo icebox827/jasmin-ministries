@@ -11,7 +11,7 @@ function Hero() {
           alt="Jasmin Ministries"
         />
         <div className="p-6 flex flex-col justify-start">
-          <h3 className="text-gray-900 text-xl font-medium mb-2">Verse of the day</h3>
+          <h3 className="text-gray-900 text-xl font-medium mb-2">Words of the Lord</h3>
           <h4 className="text-gray-700 text-base mb-4">
             A new commandment I give to you, that you love one another:
             just as I have loved you, you also are to love one another.
