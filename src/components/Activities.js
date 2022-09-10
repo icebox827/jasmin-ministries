@@ -6,8 +6,8 @@ function Activities() {
   return (
     <div className="container">
       <h1 className="text-center mt-5 title">Get involved</h1>
-      <div className="flex mb-4 justify-center">
-        <div className="w-1/2 mt-5">
+      <div className="flex mb-4 justify-center involved">
+        <div className="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 xxl:w-1/2 xxxl:w-1/2 mt-5">
           <div className="max-w-md rounded overflow-hidden shadow-lg card">
             <img className="w-full h-auto" src={Music} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
@@ -23,7 +23,7 @@ function Activities() {
             </div>
           </div>
         </div>
-        <div className="w-1/2 mt-5">
+        <div className="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 xxl:w-1/2 xxxl:w-1/2 mt-5">
           <div className="max-w-md rounded overflow-hidden shadow-lg card">
             <img className="w-full h-auto" src={Orphanage} alt="Sunset in the mountains" />
             <div className="px-6 py-4">

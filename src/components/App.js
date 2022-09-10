@@ -1,11 +1,12 @@
+import { ThemeProvider } from '@material-tailwind/react';
 import '../styles/App.css';
 import RoutesLink from './Routes';
 
 function App() {
   return (
-    <div>
+    <ThemeProvider className="App">
       <RoutesLink />
-    </div>
+    </ThemeProvider>
   );
 }
 

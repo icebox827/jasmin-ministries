@@ -3,15 +3,23 @@ import Worship from '../assets/pexels-luis-quintero-2774570.jpg';
 
 function Services() {
   return (
-    <div className="flex mb-4">
-      <div className="w-1/2">
+    <div
+      className="flex"
+      sm
+      md
+      lg
+      xl
+      xxl
+      xxxl
+    >
+      <div className="w-1/2 mobile">
         <img
           className="worship"
           src={Worship}
           alt="Jasmin Ministries"
         />
       </div>
-      <div className="w-1/2 bg-gray-200">
+      <div className="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 xxl:w-1/2 xxxl:w-1/2 bg-gray-200">
         <h1 className="text-center mt-5 title">Come and Worship with us</h1>
         <hr />
         <h2 className="text-center mt-5 sub-title">

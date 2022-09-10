@@ -6,12 +6,34 @@ import Services from '../components/Services';
 
 function Home() {
   return (
-    <div className="container mx-auto">
+    <div
+      className="container mx-auto home"
+      sm
+      md
+      lg
+      xl
+      xxl
+      xxxl
+    >
       <div className="hero">
-        <Hero />
+        <Hero
+          sm
+          md
+          lg
+          xl
+          xxl
+          xxxl
+        />
       </div>
       <div className="services">
-        <Services />
+        <Services
+          sm
+          md
+          lg
+          xl
+          xxl
+          xxxl
+        />
       </div>
     </div>
   );
